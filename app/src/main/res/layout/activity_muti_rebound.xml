@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:id="@+id/activity_rebound"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.topfine.malltest.home.MutiReboundActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:background="#3a0"
+        android:layout_height="40dp"/>
+
+    <com.topfine.malltest.home.ReboundScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:background="#ff0"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="90dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:background="#900"
+            android:layout_height="290dp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyVi"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyVi2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+    </com.topfine.malltest.home.ReboundScrollView>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.topfine.malltest.home.ReboundScrollView
+    android:id="@+id/activity_rebound"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.topfine.malltest.home.ReboundActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:background="#ff0"
+        android:id="@+id/recyVi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</com.topfine.malltest.home.ReboundScrollView>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">众Test</string>
+    <string name="your_network_has_disconnected">无网络连接</string>
+    <string name="your_mobile_has_disconnected">您使用的是移动网络</string>
+</resources>
